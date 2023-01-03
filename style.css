@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-.header{
- 
-}
-
 .wrapper__header{
     padding-top: 56px;
     padding-bottom: 65px;
@@ -139,7 +135,7 @@
 }
 
 .menu__links{
-    max-width: 1440px;
+    max-width: 1640px;
 }
 
 
@@ -239,7 +235,7 @@ h1{
     content: "";
     position: absolute;
     bottom: 66px;
-    left: 600px;
+    left: 450px;
     width: 53px;
     height: 53px;
     background-image: url("./img/Star\ 1.png");
@@ -294,8 +290,8 @@ h1{
 .wrapper__beets::before{
     content: "";
     position: absolute;
-    top: -45px;
-    left: 10px;
+    top: -80px;
+    left: -60px;
     width: 53px;
     height: 53px;
     background-image: url("./img/Star\ 1.png");
@@ -313,8 +309,38 @@ h1{
     font-size: 40px;
     line-height: 49px;
     color: #2B2626;
+}
+
+.text__beets span{
+    position: absolute;
+    height: 200px;
+    width: 20px;
+    left: 120px;
+    top: 0;
+    transform-origin: bottom center;
     
 }
+
+.char1 { transform: rotate(-90deg) ; }
+.char2 { transform: rotate(-90deg) translateX(30px); }
+.char3 { transform: rotate(-85deg) translateX(40px); }
+
+.char5 { transform: rotate(-80deg) translateX(70px); }
+.char6 { transform: rotate(-78deg) translateX(95px) translateY(-5px); }
+.char7 { transform: rotate(-50deg) translateX(28px) translateY(-35px); }
+.char8 { transform: rotate(-40deg) translateX(20px) translateY(-40px); }
+.char9 { transform: rotate(-30deg) translateX(5px) translateY(-45px); }
+
+.char11 { transform: rotate(-20deg) translateX(5px) translateY(-50px); }
+.char12 { transform: rotate(-10deg) translateX(5px) translateY(-55px); }
+.char13 { transform: rotate(-5deg) translateX(5px) translateY(-55px); }
+.char14 { transform: rotate(5deg) translateX(-5px) translateY(-57px);  }
+.char15 { transform: rotate(15deg) translateX(-15px) translateY(-58px); }
+.char16 { transform: rotate(25deg) translateX(-25px) translateY(-55px); }
+.char17 { transform: rotate(40deg) translateX(-55px) translateY(-45px); }
+.char18 { transform: rotate(50deg) translateX(-45px) translateY(-40px); }
+.char19 { transform: rotate(60deg) translateX(-60px) translateY(-30px); }
+
 
 .text__price{
     font-weight: 600;
