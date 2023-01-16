@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Shopper</title>
 </head>
 <body>
@@ -15,10 +15,9 @@
 
                 <p class="logo">Shop<span class="logo__black">per</span></p>
 
-                <div class="form__search">
-                    <input placeholder="Search Items" type="search" class="input__field" />
-                </div>
-
+                    <label class="form__search" for="">
+                        <input placeholder="Search Items" type="search" class="input__field" />
+                    </label>   
 
                 <p class="basket__info">0 items Added</p>
                 <button class="authorization">Login or Sign Up</button>
@@ -86,11 +85,31 @@
                         <p class="text__price">50$</p>
                     </div>
                 </div>
-
-
-
         </section>
 
+        <section class="products">
+
+            <div class="images">
+                <h2 class="images__title">Apple wireless Airpod</h2>
+                <div class="images__container images__container_products">
+                    <img class="images__container_1" src="" alt="headphones">
+                    <img class="images__container_2" src="" alt="headphones">
+                    <img class="images__container_3" src="" alt="headphones">
+                </div>
+                <div class="price price_products">
+                    <p class="price__text">Price</p>
+                    <p class="price__number">$45.99</p>
+                </div>
+            </div>
+
+            <div class="product-descr product-descr_normal">
+                <div class="product-descr__title"></div>
+                <div class="product-descr__description"></div>
+                    <button class="button-card"></button>
+                    <button class="button-outline button-outline_product-descr"></button>
+            </div>
+
+        </section>
 
     </main>
 </body>
