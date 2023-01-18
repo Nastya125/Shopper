@@ -1,10 +1,11 @@
-/* :root{
-    --backround-color;
-    --text-color:var(--primary-color);
-    --green-color: #10B981;
-    --primary-products: ;
-    --primary-bg
-} */
+@import url(./fonts.css);
+
+:root{
+    --primary: #10b981;
+    --primary-bg: #f5f5f5;
+    --textprimarycolor: #2b2626;
+    --primary-products: #845EC2;
+}
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -18,7 +19,7 @@ body{
     background-color: var(--primary-bg);
 }
 
-.wrapper__header{
+.header__wrapper {
     padding-top: 56px;
     padding-bottom: 65px;
     width: 100%;
@@ -29,7 +30,7 @@ body{
 
 }
 
-.logo {
+.header__logo {
     font-size: 40px;
     font-weight: 400;
     line-height: 49px;
@@ -38,19 +39,18 @@ body{
     margin-left: 85px;
 }
 
-.logo__black {
+.header__logo-black {
     color: black;
 }
 
-
-.form__search {
+.header__form-search {
     position: relative;
     display: flex;
     align-items: center;
     margin-left: 239px;
 }
 
-.form__search::after {
+.header__form-search::after {
     content: "";
     position: absolute;
     display: flex;
@@ -60,7 +60,7 @@ body{
     background-image: url("./img/search-Filled.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #10B981;
+    background-color:  var(--primary);
     border-radius: 5px;
 
     right: 18px;
@@ -69,7 +69,7 @@ body{
     cursor: pointer;
 }
 
-.input__field {
+.header__input-field {
     width: 322px;
     height: 63px;
     border: none;
@@ -79,27 +79,27 @@ body{
     font-size: 16px;
     line-height: 60px;
     padding-left: 32px;
-    color: #2B2626;
+    color: var(--textprimarycolor);
     
 }
 
-.input__field::placeholder {
-    color: rgba(41, 41, 48, 0.2);
+.header__input-field::placeholder {
+    color: var(--textprimarycolor);
 }
 
-.basket__info {
+.header__basket-info {
     width: 229px;
     height: 60px;
     display: flex;
     align-items: center;
     margin-left: 38px;
-    border: 1px solid #10B981;
+    border: 1px solid var(--primary);
     border-radius: 30px;
     padding-left: 75px;
     position: relative;
 }
 
-.basket__info::before {
+.header__basket-info::before {
     content: "";
     position: absolute;
     display: flex;
@@ -115,11 +115,11 @@ body{
     transform: translateY(-50%);
 }
 
-.authorization {
+.header__authorization {
     width: 247px;
     height: 60px;
     margin-left: 23px;
-    background-color: #10B981;
+    background-color: var(--primary);
     border: none;
     border-radius: 30px;
     box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
@@ -131,7 +131,7 @@ body{
     position: relative;
 }
 
-.authorization::before {
+.header__authorization::before {
     content: "";
     position: absolute;
     display: flex;
@@ -147,31 +147,31 @@ body{
     transform: translateY(-50%);
 }
 
-.menu__links{
+.menu{
     max-width: 1640px;
 }
 
 
-.menu__links ul{
+.menu ul{
     display: flex;
     list-style-type: none; 
     align-items: center;
     text-align: center;
     height: 81px;
     justify-content: center;
-    background-color: #10B981;
+    background-color: var(--primary);
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     
 }
 
-.link{
+.menu__link{
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.menu__links li:not(:first-child){
+.menu li:not(:first-child){
     margin-left: 75px;
 }
 
@@ -192,7 +192,7 @@ h1{
     font-weight: 600;
     font-size: 64px;
     line-height: 78px;
-    color: #2B2626;
+    color: var(--textprimarycolor);
     margin-top: 126px;
 }
 
@@ -201,13 +201,13 @@ h1{
     font-weight: 500;
     font-size: 21px;
     line-height: 35px;
-    color: #2B2626;
+    color: var(--textprimarycolor);
 }
 
 .btn__buy{
     width: 263px;
     height: 70px;
-    background-color: #10B981;
+    background-color: var(--primary);
     border: none;
     border-radius: 10px;
     box-shadow: 0px 25px 50px rgba(132, 94, 194, 0.15);
@@ -233,7 +233,7 @@ h1{
 }
 
 .text__reviews{
-    color: #2B2626;
+    color: var(--textprimarycolor);
     font-weight: 500;
     font-size: 26px;
     line-height: 35px;
@@ -292,7 +292,7 @@ h1{
     font-weight: 500;
     font-size: 21px;
     line-height: 35px;
-    color: #2B2626;
+    color: var(--textprimarycolor);
     
 }
 
@@ -327,7 +327,7 @@ h1{
     font-weight: 600;
     font-size: 40px;
     line-height: 49px;
-    color: #2B2626;
+    color: var(--textprimarycolor);
 }
 
 .text__beets span{
@@ -365,7 +365,7 @@ h1{
     font-weight: 600;
     font-size: 31px;
     line-height: 38px;
-    color: #2B2626;
+    color: var(--textprimarycolor);
     margin-top: 26px;
 }
 
@@ -393,8 +393,9 @@ h1{
 .images__title {
     font-size: 60px;
     line-height: 73px;
-    text-shadow: 0px 0px 2px white;
-    color: transparent;
+    color: var(--primary-products);
+    text-shadow: 0px 0px 3px white;
+
 }
 
 .images {
@@ -463,6 +464,7 @@ h1{
     line-height: 54px;
     color: white;
     font-weight: 600;
+
 
 }
 .product-descr__description {
