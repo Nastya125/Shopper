@@ -58,7 +58,7 @@ body{
     align-items: center;
     width: 38px;
     height: 38px;
-    background-image: url("./img/search-Filled.png");
+    background-image: url("../img/search-Filled.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color:  var(--primary);
@@ -68,6 +68,10 @@ body{
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+
+.header__form-search::placeholder {
+    color: var(--textprimarycolor);
 }
 
 .header__input-field {
@@ -84,9 +88,7 @@ body{
     
 }
 
-.header__input-field::placeholder {
-    color: var(--textprimarycolor);
-}
+
 
 .header__basket-info {
     width: 229px;
@@ -107,7 +109,7 @@ body{
     align-items: center;
     width: 20px;
     height: 25px;
-    background-image: url("./img/basket.svg");
+    background-image: url("../img/basket.svg");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -139,7 +141,7 @@ body{
     align-items: center;
     width: 20px;
     height: 25px;
-    background-image: url("./img/login.svg");
+    background-image: url("../img/login.svg");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -400,9 +402,9 @@ h1{
 
 }
 
-.images__container1 {
+/* .images__container1 {
 
-}
+} */
 
 .images__container2 {
     position: relative;
@@ -410,9 +412,9 @@ h1{
     margin: 0 30px;
 }
 
-.images__container2 {
+/* .images__container2 {
 
-}
+} */
 
 .price{
     font-size: 31px;
