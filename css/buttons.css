@@ -23,3 +23,21 @@
 .button-outline_product-descr{
     margin-left: 49px;
 }
+
+.button-oval {
+    width: 177px;
+    height: 91px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    color: white;
+    font-size: 26px;
+    
+}
+
+.card-btn {
+    width: 100%;
+}
+
+.sellers__title-mb{
+    margin-bottom: 55px;
+}
