@@ -1,5 +1,6 @@
 @import url(./fonts.css);
 @import url(./buttons.css);
+@import url(./card.css);
 
 :root{
     --primary: #10b981;
@@ -472,6 +473,7 @@ h1{
 
 }
 
+/* Sellers */
 
 .sellers {
     display: flex;
@@ -488,101 +490,27 @@ h1{
     text-align: center;
 }
 
+.sellers__title-margin-bt {
+    margin-bottom: 65px;
+}
 
 .tab {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.container {
-}
 
 .tab__btn-wrapper {
     margin-bottom: 99px;
+    
 }
 .tab__card-wrapper {
     display: flex;
     gap: 93px;
     flex-wrap: wrap;
 }
-.tab__card {
-}
-.card {
-    width: 361px;
-    display: flex;
-    flex-direction: column;
-    gap: 29px;
-    position: relative;
-}
-.card__product {
-    width: 100%;
-    height: 438px;
-    padding: 30px 21px 18px 21px ;
-    background-color: #fff;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.card__img {
-    width: 196px;
-    height: 196px;
-}
-.card__descr {
-    width: 100%;
-    height: 164px;
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 30px 51px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.card__text {
-    color: var(--textprimarycolor);
-    font-weight: 500;
-    font-style: 21px;
-    line-height: 35px;
-}
-.card__rating {
-    display: inline-flex;
-    justify-content: baseline;
-}
-.card__rating-count {
-    display: inline-flex;
-    color: gray;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 35px;
-    margin-left: 13px;
-}
-.card__price {
-}
-.card__btn {
 
-}
-.btn-buy {
-}
 
-.card__discount {
-    background-color: var(--primary);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    position: absolute;
-    right: 19px;
-    top: 13px;
-}
 
-.card__discount > p {
-    width: 60%;
-    text-align: center;
-}
+
+

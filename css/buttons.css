@@ -31,7 +31,17 @@
     border-radius: 50%;
     color: white;
     font-size: 26px;
-    
+    border: none;
+    font-weight: 600;
+}
+
+.button-oval_transparent {
+    color: #000000;
+    background-color: transparent;
+}
+
+.button-oval_margin-l {
+    margin-left: 40px;
 }
 
 .card-btn {
