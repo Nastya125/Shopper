@@ -706,9 +706,17 @@ h1{
     gap: 40px;
 }
 
+.footer__policy-text > a {
+    color: #111111;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
 .footer__socails {
     display: flex;
     gap: 40px;
+    cursor: pointer;
 }
 
 
