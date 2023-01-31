@@ -9,91 +9,102 @@
     <title>Shopper</title>
   </head>
   <body>
+
+    <!-- header -->
+
     <header class="header">
-      <div class="header__wrapper">
-        <p class="header__logo">Shop<span class="header__logo-black">per</span></p>
+      <div class="header__container">
+        <nav class="navbar navbar_header"></nav>
+          <div class="header__wrapper">
+            <p class="header__logo">Shop<span class="header__logo-black">per</span></p>
 
-        <label class="header__form-search" for="">
-          <input
-            placeholder="Search Items"
-            type="search"
-            class="header__input-field"
-          />
-        </label>
+            <label class="header__form-search" for="">
+              <input
+                placeholder="Search Items"
+                type="search"
+                class="header__input-field"
+              />
+            </label>
 
-        <p class="header__basket-info">0 items Added</p>
-        <button class="header__authorization">Login or Sign Up</button>
+            <p class="header__basket-info">0 items Added</p>
+            <button class="header__authorization">Login or Sign Up</button>
+          </div>
+
+            <ul class="menu">
+              <li><a class="menu__link" href="#">Features</a></li>
+              <li><a class="menu__link" href="#">Products</a></li>
+              <li><a class="menu__link" href="#">Blog</a></li>
+              <li><a class="menu__link" href="#">About</a></li>
+            </ul>
+          
+        </nav>
+        <!-- About  -->
+        <div class="about">
+          <!-- left block -->
+          <div class="about__descr">
+              <h1>Discover Our Latest Products</h1>
+              <p class="about__descr_text">
+                Lorem ipsum is a placeholder text commonly used to demonstrate the
+                visual form of a product
+              </p>
+              <div class="about__descr__container">
+                  <button class="btn-buy">Buy Now</button>
+                </div>
+                <div class="about__reviews">
+                  <div class="icons">
+                    <img class="icons__face icon1" src="./img/Ellipse 7.png" alt="" />
+                    <img class="icons__face icon2" src="./img/Ellipse 9.png" alt="" />
+                    <img class="icons__face icon3" src="./img/Ellipse 11.png" alt="" />
+                    <img class="icons__face icon4" src="./img/Ellipse 13.png" alt="" />
+                  </div>
+                  <p class="about__reviews_descr">15k Well <br />Reviews</p>
+                </div>
+              </div>
+          
+
+            <div class="about__interactive">
+              <div class="play">
+
+                  <img class="play__img" src="./img/image 11.png" alt="" />
+
+                <button class="play__text">Play Video</button>
+              </div>
+
+              <div class="beets">
+                <p class="beets__text">
+                  <span class="beets__char1">R</span>
+                  <span class="beets__char2">e</span>
+                  <span class="beets__char3">d</span>
+                  
+                  <span class="beets__char5">B</span>
+                  <span class="beets__char6">e</span>
+                  <span class="beets__char7">a</span>
+                  <span class="beets__char8">t</span>
+                  <span class="beets__char9">s</span>
+                  
+                  <span class="beets__char11">M</span>
+                  <span class="beets__char12">I</span>
+                  <span class="beets__char13">9</span>
+                  <span class="beets__char14">c</span>
+                  <span class="beets__char15">2</span>
+                  <span class="beets__char16">z</span>
+                  <span class="beets__char17">m</span>
+                  <span class="beets__char18">/</span>
+                  <span class="beets__char19">a</span>
+                </p>
+                <img class="star star__first" src="/img/Star 1.png" alt="star">
+                <img class="star star__second" src="/img/Star 1.png" alt="star">
+
+                <div class="beets__img-price">
+                  <img class="beets__img" src="./img/image 6.png" alt="" />
+                  <p class="beets__price">50$</p>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
       </div>
-
-      <nav class="menu">
-        <ul>
-          <li><a class="menu__link" href="#">Features</a></li>
-          <li><a class="menu__link" href="#">Products</a></li>
-          <li><a class="menu__link" href="#">Blog</a></li>
-          <li><a class="menu__link" href="#">About</a></li>
-        </ul>
-      </nav>
     </header>
-
-    <main>
-
-      <!-- first block -->
-      <section class="first-block">
-        <div class="left-side">
-          <div class="left-side__wrapper">
-            <h1>Discover Our Latest Products</h1>
-            <p class="left-side__descr">
-              Lorem ipsum is a placeholder text commonly used to demonstrate the
-              visual form of a product
-            </p>
-            <button class="btn-buy">Buy Now</button>
-          </div>
-          <div class="wrapper-images">
-            <img class="wrapper-images__face" src="./img/Ellipse 7.png" alt="" />
-            <img class="wrapper-images__face" src="./img/Ellipse 9.png" alt="" />
-            <img class="wrapper-images__face" src="./img/Ellipse 11.png" alt="" />
-            <img class="wrapper-images__face" src="./img/Ellipse 13.png" alt="" />
-            <p class="wrapper-images__text">15k Well <br />Reviews</p>
-          </div>
-        </div>
-
-        <div class="play-video">
-          <div class="play-video__wrapper">
-            <img class="play-video__img" src="./img/image 11.png" alt="" />
-          </div>
-          <p class="play-video__text">Play Video</p>
-        </div>
-
-        <div class="beets">
-          <p class="beets__text">
-            <span class="beets__char1">R</span>
-            <span class="beets__char2">e</span>
-            <span class="beets__char3">d</span>
-            
-            <span class="beets__char5">B</span>
-            <span class="beets__char6">e</span>
-            <span class="beets__char7">a</span>
-            <span class="beets__char8">t</span>
-            <span class="beets__char9">s</span>
-            
-            <span class="beets__char11">M</span>
-            <span class="beets__char12">I</span>
-            <span class="beets__char13">9</span>
-            <span class="beets__char14">c</span>
-            <span class="beets__char15">2</span>
-            <span class="beets__char16">z</span>
-            <span class="beets__char17">m</span>
-            <span class="beets__char18">/</span>
-            <span class="beets__char19">a</span>
-          </p>
-
-          <div class="beets__img-price">
-            <img class="beets__img" src="./img/image 6.png" alt="" />
-            <p class="beets__price">50$</p>
-          </div>
-        </div>
-      </section>
-
       <!-- products -->
 
       <section class="products">
@@ -365,25 +376,25 @@
               </label>
             </div>
             <ul class="footer__menu">
-              <li><a class="menu__link menu__link_green" href="#">Services</a></li>
-              <li><a class="menu__link" href="#">Email Marketing</a></li>
-              <li><a class="menu__link" href="#">Campaigns</a></li>
-              <li><a class="menu__link" href="#">Branding</a></li>
-              <li><a class="menu__link" href="#">Offline</a></li>
+              <li><a class="footer__menu-link footer__menu-link_green" href="#">Services</a></li>
+              <li><a class="footer__menu-link" href="#">Email Marketing</a></li>
+              <li><a class="footer__menu-link" href="#">Campaigns</a></li>
+              <li><a class="footer__menu-link" href="#">Branding</a></li>
+              <li><a class="footer__menu-link" href="#">Offline</a></li>
             </ul> 
 
             <ul class="footer__menu">
-              <li><a class="menu__link menu__link_green" href="#">About</a></li>
-              <li><a class="menu__link" href="#">Our Story</a></li>
-              <li><a class="menu__link" href="#">Benefits</a></li>
-              <li><a class="menu__link" href="#">Team</a></li>
-              <li><a class="menu__link" href="#">Careers</a></li>
+              <li><a class="footer__menu-link footer__menu-link_green" href="#">About</a></li>
+              <li><a class="footer__menu-link" href="#">Our Story</a></li>
+              <li><a class="footer__menu-link" href="#">Benefits</a></li>
+              <li><a class="footer__menu-link" href="#">Team</a></li>
+              <li><a class="footer__menu-link" href="#">Careers</a></li>
             </ul> 
 
             <ul class="footer__menu">
-              <li><a class="menu__link menu__link_green" href="#">Help</a></li>
-              <li><a class="menu__link" href="#">FAQs</a></li>
-              <li><a class="menu__link" href="#">Contact Us</a></li>
+              <li><a class="footer__menu-link footer__menu-link_green" href="#">Help</a></li>
+              <li><a class="footer__menu-link" href="#">FAQs</a></li>
+              <li><a class="footer__menu-link" href="#">Contact Us</a></li>
             </ul> 
         </nav>
         <div class="footer__container-policy-socials">
